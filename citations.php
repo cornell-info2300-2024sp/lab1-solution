@@ -16,8 +16,8 @@
 
     <nav id="menu">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="citations.html">Citations</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="citations.php">Citations</a></li>
       </ul>
     </nav>
   </header>
@@ -31,12 +31,11 @@
 
     <p>Use the following flow chart to determine how to cite a resource:</p>
 
-    <!-- TODO: cite this resource -->
     <picture>
       <img alt="If you created the resource, cite yourself in a comment near the resource. Otherwise, cite the source on-screen near the resource" src="images/citation-flow.svg">
     </picture>
+    <cite>Source: INFO 2300 Syllabus</cite>
 
-    <!-- TODO: cite this resource -->
     <blockquote>
       <p>
         <strong>Citing External Resources:</strong> Please cite any resources you <em>use</em> or <em>reference</em>
@@ -52,6 +51,7 @@
         you didn't forget to cite them.)
       </p>
     </blockquote>
+    <cite>Source: INFO 2300 Syllabus</cite>
 
   </main>
 

@@ -16,8 +16,8 @@
 
     <nav id="menu">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="citations.html">Citations</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="citations.php">Citations</a></li>
       </ul>
     </nav>
   </header>
@@ -27,7 +27,7 @@
 
     <p>This website is rendered server-side in PHP.</p>
 
-    <p>You're running PHP version: <strong>TODO: PHP Version</strong>.</p>
+    <p>You're running PHP version: <strong><?php echo htmlspecialchars(phpversion()); ?></strong>.</p>
   </main>
 
   <footer>
